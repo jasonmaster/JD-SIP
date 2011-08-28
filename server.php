@@ -7,8 +7,6 @@ THIS IS OWNED and BUILT BY JAY-DESIGNS
 
 MADE BY Jason ******* (OWNER)
 
-My Developphp Username is Jasonmaster.
-My Word-Of-Webcraft username is JayDesigns
 
 
 BUILT ON MAC OS X Leopard
