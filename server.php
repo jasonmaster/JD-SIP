@@ -1,8 +1,24 @@
 <?php
 
+/*
 
-//////////////
+THIS SCRIPED IS PART OF THE J-D:SIP PROJECT {PRIVATE} AND SALL NOT BE COPED
+THIS IS OWNED and BUILT BY JAY-DESIGNS
+
+MADE BY Jason ******* (OWNER)
+
+My Developphp Username is Jasonmaster.
+My Word-Of-Webcraft username is JayDesigns
+
+
+BUILT ON MAC OS X Leopard
+EDITOR:TextMate
+
+*/
+######################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################
+
 /* 
+//////////////
 include('server.php');
 
 $JD = new JDSIP();
@@ -27,7 +43,34 @@ class JDSIP
 		$echo = "Sent To an AT&T Mobile Phone";
 		return $echo;
 	}
-
+	public static function boost_mobile($to, $message, $subject){
+	$headers = "From: "."\r\n"."Jay-Designs-SMS \r\n";
+	$formatted_number = $to."@myboostmobile.com";
+	mail("$formatted_number", "$subject", "$message", "$headers");
+		$echo = "Sent To an Boost Mobile Phone";
+		return $echo;
+	}
+	public static function cricket($to, $message, $subject){
+	$headers = "From: "."\r\n"."Jay-Designs-SMS \r\n";
+	$formatted_number = $to."@mms.mycricket.com";
+	mail("$formatted_number", "$subject", "$message", "$headers");
+		$echo = "Sent To an Cricket Mobile Phone";
+		return $echo;
+	}
+	public static function metropcs($to, $message, $subject){
+	$headers = "From: "."\r\n"."Jay-Designs-SMS \r\n";
+	$formatted_number = $to."@mymetropcs.com";
+	mail("$formatted_number", "$subject", "$message", "$headers");
+		$echo = "Sent To an MetroPCS Phone";
+		return $echo;
+	}
+	public static function tracfone($to, $message, $subject){
+	$headers = "From: "."\r\n"."Jay-Designs-SMS \r\n";
+	$formatted_number = $to."@mmst5.tracfone.com";
+	mail("$formatted_number", "$subject", "$message", "$headers");
+		$echo = "Sent To an TracFone Phone";
+		return $echo;
+	}
 	public static function virgin($to, $message, $subject){
 	$headers = "From: "."\r\n"."Jay-Designs-SMS \r\n";
 	$formatted_number = $to."@vmobl.com";
